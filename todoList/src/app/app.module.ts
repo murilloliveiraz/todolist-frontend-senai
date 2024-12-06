@@ -9,6 +9,9 @@ import { CadastroTarefasComponent } from './telas/cadastro-tarefas/cadastro-tare
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CadastroUsuariosComponent } from './telas/cadastro-usuarios/cadastro-usuarios.component';
 import { GerenciarTarefasComponent } from './telas/gerenciar-tarefas/gerenciar-tarefas.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,11 @@ import { GerenciarTarefasComponent } from './telas/gerenciar-tarefas/gerenciar-t
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    CommonModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

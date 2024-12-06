@@ -7,18 +7,16 @@ import { GerenciarTarefasComponent } from './telas/gerenciar-tarefas/gerenciar-t
 const routes: Routes = [
   {
     path: '',
-   component: CadastroTarefasComponent,
-   children: [
-    {
-      path: '', component: CadastroTarefasComponent,
-    },
-    {
-      path: '', component: CadastroUsuariosComponent,
-    },
-    {
-      path: '', component: GerenciarTarefasComponent,
-    },
-   ]
+   component: GerenciarTarefasComponent
+  },
+  {
+    path: 'cadastrar-tarefa', component: CadastroTarefasComponent,
+  },
+  {
+    path: 'cadastrar-usuario', component: CadastroUsuariosComponent,
+  },
+  {
+    path: 'tarefas', component: GerenciarTarefasComponent,
   },
 ];
 
