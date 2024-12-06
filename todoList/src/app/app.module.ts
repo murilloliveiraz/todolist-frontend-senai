@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { CadastroTarefasComponent } from './telas/cadastro-tarefas/cadastro-tarefas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonsComponent,
-    NavbarComponent
+    NavbarComponent,
+    CadastroTarefasComponent
   ],
   imports: [
     BrowserModule,
