@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    height: 80px;
+    background-color: #0056b3;
+    color: #ffffff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+}
+
+h1 {
+  margin-left: 25px;
+}

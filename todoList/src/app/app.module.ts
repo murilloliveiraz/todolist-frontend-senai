@@ -7,13 +7,17 @@ import { ButtonsComponent } from './components/buttons/buttons.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CadastroTarefasComponent } from './telas/cadastro-tarefas/cadastro-tarefas.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CadastroUsuariosComponent } from './telas/cadastro-usuarios/cadastro-usuarios.component';
+import { GerenciarTarefasComponent } from './telas/gerenciar-tarefas/gerenciar-tarefas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonsComponent,
     NavbarComponent,
-    CadastroTarefasComponent
+    CadastroTarefasComponent,
+    CadastroUsuariosComponent,
+    GerenciarTarefasComponent
   ],
   imports: [
     BrowserModule,

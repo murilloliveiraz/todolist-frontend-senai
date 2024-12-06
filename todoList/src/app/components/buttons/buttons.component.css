@@ -1,0 +1,8 @@
+button {
+    background: none;
+    color: white;
+    justify-content: flex-end;
+    justify-content: space-around;
+    border: none;
+    margin-right: 20px;
+}
